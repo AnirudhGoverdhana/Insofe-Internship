@@ -1,0 +1,25 @@
+    {
+      "target_table_prefix": "",
+      "data_pipeline": {
+        "elWebapp_URL" : "http://10.20.1.5:9097/elController",
+        "copyTable_URL": "http://10.20.1.5:9097/elController/copyFromSourceToTarget",
+        "jobStatus_URL": "http://10.20.1.5:9097/elController/getJobStatus",
+        "bank_tables_api_url": "http://10.20.1.5:9097/elController/getBankTables",
+        "branch_tables_api_url": "http://10.20.1.5:9097/elController/getBranchTables"
+      },
+      "json_file_path": "/home/kettle/airflow/dp_dags",
+      "postgres_info": {
+        "hostname": "10.20.1.5",
+        "airflow_db_name": "airflow",
+        "airflow_db_user": "airflow",
+        "airflow_db_password": "airflow"
+        },
+        "postgres_infra": {
+        "hostname": "10.20.1.5",
+        "infra_db_name": "fincluez_infra",
+        "infra_db_user": "kettle",
+        "infra_db_password": "kettle"
+
+      }
+
+    }
